@@ -28,7 +28,7 @@ export const PAYMENT_LABEL = {
 }
 
 // Branch hours: [open, close] in 24h
-export const HOURS = { weekday: [7, 22], weekend: [8, 23] }
+export const HOURS = { weekday: [10, 22], weekend: [10, 23] }
 
 export const peso = (n) => `₱${Number(n || 0).toFixed(2)}`
 
